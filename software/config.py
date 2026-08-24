@@ -1,0 +1,14 @@
+"""Configuration for the SwimHR processing pipeline."""
+
+SAMPLE_RATE = 125
+NUM_CHANNELS = 13
+
+BANDPASS_LOW_HZ = 10
+BANDPASS_HIGH_HZ = 30.0
+FILTER_ORDER = 4
+NOTCH_FREQ = 25
+NOTCH_Q = 10
+
+HR_MIN_BPM = 60
+HR_MAX_BPM = 200
+HR_CHANGE_THRESHOLD = 5

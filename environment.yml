@@ -1,0 +1,10 @@
+name: swimhr-artifact
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -r software/requirements.txt
